@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class BuildingMove: MonoBehaviour
 {
-    public GameObject light;
+    //public GameObject light;
     public GameObject tv;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,7 @@ public class BuildingMove: MonoBehaviour
             transform.DOMove(new Vector3(0, 0, 1.53f), 0.3f);
         }*/
         //rt.DOAnchorPosY(0, 1);
-        //µµÂøÁöÁ¡À¸·Î ±ÛÀÚ¸¦ ¿Å°ÜÁÜ.
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Å°ï¿½ï¿½ï¿½.
 
     }
     public void Builing()
@@ -35,7 +35,7 @@ public class BuildingMove: MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             transform.DOMove(new Vector3(0, 0, 1.53f), 1f);*/
         }
-        light.GetComponent<Rigidbody>().useGravity = true;
+        //GetComponent<Light>().GetComponent<Rigidbody>().useGravity = true;
         tv.GetComponent<Rigidbody>().useGravity = true;
 
     }
