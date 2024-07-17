@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     public Image fadeImage;
     void Start()
     {
-        if (SceneManager.sceneCount == 0)
+        if (SceneManager.sceneCount == 5)
         {
             choiceImage.SetActive(true);
         }
