@@ -4,7 +4,34 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start Scene.unity
+    guid: bcfe45fc4d06b384493acb8a1f213b79
+  - enabled: 1
+    path: Assets/Scenes/Intro Scene.unity
+    guid: 85d16842545da8c46a413f92594b6d64
+  - enabled: 1
+    path: Assets/Scenes/Shaking Scene.unity
+    guid: 099d3968e104b3f4d978da1cd57aae2c
+  - enabled: 1
+    path: Assets/Scenes/Phone Scene.unity
+    guid: 6bd54880eb284ab40acfe98f53b0fa5c
+  - enabled: 1
+    path: Assets/Scenes/Dugg Scene.unity
+    guid: 31e317bb232538846bb2953cf30f134d
+  - enabled: 1
+    path: Assets/Scenes/Elev Scene.unity
+    guid: e080c7eb16a89df42989d914f318f460
+  - enabled: 1
+    path: Assets/Scenes/ElevDie Scene.unity
+    guid: bbe51e28c55656a4584228e0a15be18e
+  - enabled: 1
+    path: Assets/Scenes/Exit Scene.unity
+    guid: 4112d949755cc024aa6023ab4f3196cb
+  - enabled: 1
+    path: Assets/Scenes/Playground Scene.unity
+    guid: 44993c392b298fb4784312d59a49e363
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f45f932077a64f34d84bae755af13ab1, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fde682ff34e365b48a5b2d17ff5cb6cc, type: 2}

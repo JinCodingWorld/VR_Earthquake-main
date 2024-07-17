@@ -6,9 +6,10 @@ public class PopupWarning : MonoBehaviour
 {
 
     public GameObject warningmsg;
+
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "GameController")
+        if(other.tag == "Player")
         {
             warningmsg.SetActive(true);
         }
